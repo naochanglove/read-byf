@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(60, 60, 255);
+    background-size: cover;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+#satu {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+.dua {
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+}
+
+#hilite {
+    background-color: rgb(32, 104, 14);
+    width: max-content;
+}
+
+#strike {
+    text-decoration-line: line-through;
+}
+
+h1 {
+    color: rgb(255, 203, 126);
+    text-shadow: 1px 1px 3px #000;
+    transition: 200ms;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+h1:hover {
+    color: rgb(66, 245, 132);
+    text-shadow: 1px 1px 3px #000;
+    transform: scale(2.00);
+}
+
+.dua {
+    background-color: rgb(16, 16, 136);
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+#tiga {
+    font-weight: bolder;
+}
+
+.dua p {
+    color: beige;
+    font-size: small;
+    text-transform: capitalize;
+    justify-content: center;
+}
+
+#nofoll {
+    transition: 100ms;
+    text-shadow: 1px 1px 3px rgb(218, 189, 189);
+}
+
+#nofoll:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#byf {
+    transition: 200ms;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 3px rgb(218, 189, 189);
+    color: azure;
+}
+
+#byf:hover {
+    transition: 200ms;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
